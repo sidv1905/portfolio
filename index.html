@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siddharth Varangaonkar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar which appears on first scroll from fron tpage -->
+    <div class="topnav">
+      <h3 class="topicon">Siddharth Varangaonkar</h3>
+      <div class="topnav-right">
+        <a class="navlink" href="#about">About</a>
+        <a class="navlink" href="#education">Education</a>
+        <a class="navlink" href="#skills">Skills</a>
+        <a class="navlink" href="#experience">Experience</a>
+        <a class="navlink" href="#projects">Projects</a>
+        <a class="navlink" href="#contact">Contact</a>
+      </div>
+      <a onclick="togglebar();" class="navmenu">
+        <i class="fa fa-bars" style="font-size: 36px"></i>
+      </a>
+    </div>
+    <!-- Front page with my name and info -->
+    <div class="frontpage">
+      <h2 class="fronttext">
+        Hi, Siddharth here !<br />
+        I am a coder, philomath and a writer.
+      </h2>
+      <a class="scrollbutton" href="#about">
+        <img height="40px" src="svg/scrolldown.svg" alt="Scroll down"
+      /></a>
+
+      <svg
+        class="wave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#f3f4f5"
+          fill-opacity="0.9"
+          d="M0,256L48,229.3C96,203,192,149,288,154.7C384,160,480,224,576,218.7C672,213,768,139,864,128C960,117,1056,171,1152,197.3C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+
+    <!-- Abput Me -->
+    <div id="about">
+      <div class="heading">
+        <h2>About Me</h2>
+        <p>Here's more about me:</p>
+      </div>
+      <div class="intro">
+        <div class="image"></div>
+        <div class="details">
+          <p>
+            There's a technophile inside me... Philomath | Infosys Certified
+            Software Programmer | Pythonic | Flask | A.I. and machine learning
+            geek | Implementation over theory | I am person who loves, adores
+            and just wants to hug his laptop, A person who just loves the
+            ambience of being a programmer. A cup of coffee, a pen, the screen,
+            some sticky notes, and just lovely and lengthy codes. Its just the
+            perfect thing to be attached to. I am adept and skillful with
+            various technologies and programming languages such as Python,
+            Javascript, React, Redux, Django Rest Framework, Django core, Flask,
+            MongoDB, SQL.
+            <br />
+            <br />I have worked and developed projects on all these technologies
+            and tools. I can develop REST APIs with proper guidelines and
+            integrate with React JS based UI too. I have developed projects with
+            proper knowledge of CRUD operations, Authentication, Navigation,
+            Routing etc. I have a good hands on experience with Full Stack
+            development.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center">
+      <img
+        style="margin: auto"
+        height="200"
+        width="200"
+        src="svg/undraw_code_review_l1q9.svg"
+      />
+    </div>
+    <!-- Education -->
+    <div id="education">
+      <div class="educationsec">
+        <h2>Education</h2>
+        <div class="educationcard">
+          <h4>
+            <i class="fa fa-university" aria-hidden="true"></i> Bachelor Of
+            Engineering
+          </h4>
+          <p class="cardsubhead">Computer Science(First Divison Hons.)</p>
+          <p>Acropolis Institute Of Technology And Research</p>
+          <p></p>
+          <p>
+            Learned about data structures and algorithms with core subjects in
+            development like computer networking, operating system, software
+            development life cycle.
+          </p>
+          <ul>
+            <li>
+              Developed a minor project based on technologies like flask,
+              python, folium.
+            </li>
+            <li>
+              Member of E-Cell to learn about innovations and startups growth
+            </li>
+          </ul>
+          <h5>2016-2020</h5>
+        </div>
+      </div>
+      <div class="profile">
+        <h2>Profile</h2>
+
+        <p class="role">
+          <i class="fa fa-desktop" aria-hidden="true"></i> Software Developer,
+          Python Developer
+        </p>
+        <p class="edu">
+          <i class="fa fa-graduation-cap" aria-hidden="true"></i> Bachelor Of
+          Engineering from Acropolis Institute Of Technology And Research
+        </p>
+        <h4><i class="fa fa-user" aria-hidden="true"></i> Full Name:</h4>
+        Siddharth Varangaonkar
+        <h4>
+          <i class="fa fa-birthday-cake" aria-hidden="true"></i> Birth Date:
+        </h4>
+        11 March
+        <h4><i class="fa fa-envelope" aria-hidden="true"></i> Email:</h4>
+        sidvarangaonkar1905@gmail.com
+      </div>
+    </div>
+
+    <!-- SkillSet -->
+    <div class="background1">
+      <img src="svg/django.svg" height="100" width="100" />
+      <img src="svg/icons8-python.svg" height="100" width="100" />
+      <img src="svg/icons8-javascript.svg" height="100" width="100" />
+      <img src="svg/icons8-react-native.svg" height="100" width="100" />
+    </div>
+    <div id="skills">
+      <h2>Skills</h2>
+      <p>Web Development</p>
+      <div class="container">
+        <div class="skillbar web">80%</div>
+      </div>
+      <p>Python</p>
+      <div class="container">
+        <div class="skillbar python">90%</div>
+      </div>
+      <p>Javascript</p>
+      <div class="container">
+        <div class="skillbar javascript">60%</div>
+      </div>
+      <p>Django</p>
+      <div class="container">
+        <div class="skillbar django">70%</div>
+      </div>
+      <p>React Js, Redux</p>
+      <div class="container">
+        <div class="skillbar react">65%</div>
+      </div>
+    </div>
+    <!-- Languages -->
+
+    <div id="language">
+      <h2>Languages</h2>
+      <div class="cards">
+        <div class="languagecard">
+          English
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle uncheck fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="languagecard">
+          Hindi
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle uncheck fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="languagecard">
+          French
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle uncheck fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="languagecard">
+          Marathi
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-circle uncheck fa-fw" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <div class="background2"></div>
+    <!-- Experience -->
+    <div id="experience">
+      <h2>Experience</h2>
+      <div class="works">
+        <div class="workcard">
+          <h3 class="workheading">Web Developer Intern</h3>
+          <p style="margin-top: -15px">Gyrix Technolabs LLP.</p>
+          <p class="workdetail">
+            Worked on educatioal website, learned about web development and
+            version control system
+          </p>
+        </div>
+
+        <div class="workdate">
+          <img
+            class="workicon"
+            src="svg/programmer.svg"
+            width="50"
+            height="50"
+          />
+          <p>Jan 2019 - Mar 2019</p>
+        </div>
+        <div class="workdate">
+          <img class="workicon" src="svg/writing.svg" width="40" height="40" />
+          <p>Jan 2019 - Present</p>
+        </div>
+        <div class="workcard">
+          <h3 class="workheading">Technical Content Writer</h3>
+          <p style="margin-top: -15px">AI Graduate</p>
+          <p class="workdetail">
+            Wrote articles on Machine learning core concepts like Naive bayes,
+            Model Deployment and Overfitting.
+          </p>
+        </div>
+        <div class="workcard">
+          <h3 class="workheading">NGO Volunteering</h3>
+          <p style="margin-top: -15px">Matoshree Seva Sansthan</p>
+          <p class="workdetail">
+            Helped people, worked in blind school to help and teach children.
+            Learned about leadership and managing people. Had to organize events
+            and guide people.
+          </p>
+        </div>
+        <div class="workdate">
+          <img
+            class="workicon"
+            src="svg/social-care.svg"
+            width="40"
+            height="40"
+          />
+          <p>Jan 2019 - Mar 2019</p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="background4"></div>
+    <div id="projects">
+      <div class="apps">
+        <h2>Projects</h2>
+        <div class="projectsheading">
+          <a class="projectsection all navlink">All</a>
+          <a class="projectsection weblink navlink">Web Apps</a>
+          <a class="projectsection microlink navlink">Micro Projects</a>
+          <a class="projectsection bloglink navlink">Blogs</a>
+        </div>
+        <div class="webappcontainer owl-carousel">
+          <div class="card">
+            <img src="img/one.png" />
+            <div class="info">
+              <h1>OneStepAway</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/game.jpg" />
+            <div class="info">
+              <h1>OneStepAway</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/twitter.png" />
+            <div class="info">
+              <h1>Mountain</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="microcontainer owl-carousel">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&amp;fit=crop&amp;w=667&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+            />
+            <div class="info">
+              <h1>Mountain</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&amp;fit=crop&amp;w=667&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+            />
+            <div class="info">
+              <h1>Mountain</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&amp;fit=crop&amp;w=667&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+            />
+            <div class="info">
+              <h1>Mountain</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&amp;fit=crop&amp;w=667&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+            />
+            <div class="info">
+              <h1>Mountain</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="blogcontainer owl-carousel">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&amp;fit=crop&amp;w=667&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+            />
+            <div class="info">
+              <h1>Mountain</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&amp;fit=crop&amp;w=667&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+            />
+            <div class="info">
+              <h1>Mountain</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background3"></div>
+    <div id="contact">
+      <h2>Contact Me.</h2>
+      Fill the form to get in touch with me
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name.." />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email Id" />
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" />
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message"
+          style="height: 170px"
+        ></textarea>
+      </form>
+
+      <footer>
+        <p style="text-align: center">Copyright @Siddharth Varangaonkar</p>
+        <div class="social-footer-icons">
+          <ul class="menu simple">
+            <li>
+              <a href="https://www.facebook.com/"
+                ><i class="fa fa-facebook" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/?hl=en"
+                ><i class="fa fa-instagram" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.pinterest.com/"
+                ><i class="fa fa-pinterest-p" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/?lang=en"
+                ><i class="fa fa-twitter" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script>
+      $(".webappcontainer").owlCarousel({
+        autoplaySpeed: 800,
+        slideTransition: "cubic-bezier(0,.73,1,.38)",
+        items: 2,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+      $(".microcontainer").owlCarousel({
+        autoplaySpeed: 800,
+        slideTransition: "cubic-bezier(0,.73,1,.38)",
+        loop: true,
+        items: 2,
+        autoplay: true,
+        autoplayTimeout: 4000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+      $(".blogcontainer").owlCarousel({
+        autoplaySpeed: 800,
+        slideTransition: "cubic-bezier(0,.73,1,.38)",
+        items: 2,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
+  </body>
+  <script src="scripts.js"></script>
+</html>
